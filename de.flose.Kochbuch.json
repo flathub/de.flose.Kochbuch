@@ -34,9 +34,13 @@
                     "PATH": "/usr/bin:/usr/lib/sdk/mono6/bin"
                 }
             },
-            "config-opts": ["--prefix=/usr/lib/sdk/mono6"],
+            "config-opts": [
+                "--prefix=/usr/lib/sdk/mono6"
+            ],
             "no-make-install": true,
-            "build-commands": ["cp class/lib/net_4_5/Microsoft.VisualBasic.dll /app/"],
+            "build-commands": [
+                "cp class/lib/net_4_5/Microsoft.VisualBasic.dll /app/"
+            ],
             "sources": [
                 {
                     "type": "git",
@@ -69,9 +73,9 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.flose.de/download/kochbuch/kochbuch-portable2.6.17.zip",
+                    "url": "https://www.flose.de/download/kochbuch/kochbuch-portable2.6.18.zip",
                     "dest": "kochbuch",
-                    "sha256": "afe1692ac5ff98166056027ada678441fecf23a03441437957f2fadcf5593138",
+                    "sha256": "0345e2fe0fb110ec4464f5cff6333de9832b61ffd090f80bfbc0d51a9b4c38de",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://www.flose.de/en/kochbuch/releasenotes",
